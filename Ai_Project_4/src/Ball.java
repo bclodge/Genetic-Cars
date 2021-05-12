@@ -1,6 +1,4 @@
 /*
-YOU DO NOT NEED TO MODIFY THIS CLASS
-
 Ball simulates a ball, or a 2D sphere with position, mass, nonzero radius, and velocity.
 A ball is the basic movable unit in the physics model.
 */
