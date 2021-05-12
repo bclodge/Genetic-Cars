@@ -1,5 +1,4 @@
 /*
-YOU DO NOT NEED TO MODIFY THIS CLASS
 
 Link models a fixed length connection between two balls.  By default, two balls that are linked must stay a constant distance apart.
 */
