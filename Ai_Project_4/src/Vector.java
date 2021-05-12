@@ -1,5 +1,4 @@
 /*
-YOU DO NOT NEED TO MODIFY THIS CLASS
 
 Vector stores a 2D vector and provides basic vector math operations
 */
