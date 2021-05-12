@@ -1,2 +1,2 @@
 # Genetic-Cars
-Builds an obstacles course for the cars to race down. The car that has the best genetic results wins.
+Uses a genetic algorithm and physics to determine the best genetic sequence out of 50 attempts. 
