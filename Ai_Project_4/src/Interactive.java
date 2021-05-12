@@ -1,8 +1,4 @@
 /*
-TO TRY OUT THE PHYSICS SIMULATOR, RUN THIS CLASS.
-BUT DON'T USE IT IN YOUR PROJECT.
-
-YOU DO NOT NEED TO MODIFY THIS CLASS.
 
 Interactive is a main class that creates an empty physics simulator world.
 
