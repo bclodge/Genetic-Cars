@@ -1,5 +1,4 @@
 /*
-YOU DO NOT NEED TO MODIFY THIS CLASS
 
 This class models a simulated wall, or fixed barrier that balls cannot pass through
 */
