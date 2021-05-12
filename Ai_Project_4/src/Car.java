@@ -2,11 +2,6 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 /*
-MODIFY THIS CLASS TO MATE TWO CARS AND MUTATE CARS
-
-Your code will go in methods BREED() and MUTATE().  Find the TODO lines.
-  you will call these methods from your code in GeneticCars
-
 A "Car" is a collection of balls and links
 */
 
@@ -99,8 +94,7 @@ public class Car
 		return (int)(Math.random()*(b-a+1)+a);
 	}
 
-	//TODO
-	//YOU WRITE THIS FUNCTION
+	
 	//It should return a "child" car that is the crossover between this car and parameter car c
 	public Car breed(Car c)
 	{
@@ -111,7 +105,7 @@ public class Car
 		
 
 
-		//YOUR WORK HERE
+		
 
 		//Choose a random crossover point.  Also choose a car to go first
 		if(Math.random() > .5)
@@ -160,8 +154,7 @@ public class Car
 		return child;
 	}
 
-	//TODO
-	//YOU WRITE THIS FUNCTION
+	
 	//It should return a car "newcar" that is identical to the current car, except with mutations
 	public Car mutate(double probability)
 	{
@@ -169,9 +162,7 @@ public class Car
 		Random rand = (Random) new Random();
 		IntStream randomNum = rand.ints(1,5,50);
 		
-		//YOUR WORK HERE
-		//  You should copy over the car's balls_x and balls_y to newcar
-		//newcar.balls_x = 
+		
 			for (int i = 0; i < newcar.nodes; i ++)
 			{
 				if(Math.random() < probability)
@@ -185,10 +176,6 @@ public class Car
 					newcar.balls_y[i] = balls_y[i];
 				}
 			}
-			//with probability "probability", change the balls_x and balls_y to a random number from 5 to 50
-		//  Then copy over the links
-		
-		//	//with probability "probability", set the link to true/false (50/50 chance)
 
 			for (int i = 0; i < newcar.nodes; i ++)
 			{
