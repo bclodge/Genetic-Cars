@@ -1,5 +1,4 @@
 /*
-YOU DO NOT NEED TO MODIFY THIS CLASS
 
 This class makes a 2d physics simulation consisting of balls, links, walls, friction, and gravity.  Graphics are optional.
 */
