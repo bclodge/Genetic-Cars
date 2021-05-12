@@ -1,21 +1,4 @@
-/*
-	MOST OF YOUR CODE WILL GO IN THIS CLASS
 
-	This is the main class for your project.  It does the following:
-		- constructs KILLTOPOPULATION random cars
-		- runs GENERATIONS breed/race/kill/mutate generations to evolve a car that completes the racetrack
-		- shows the resulting car
-
-	A generation consists of the following:
-		- breed: mate pairs of cars, with probability BREED_RATE, adding the resulting cars to the population
-		- race every car.  for each car, make a simulated world, run the car for ITERATIONS frames, then score it
-			- cars are scored first by distance traveled.  Further is better.
-			- cars that make the end of the track (position of 500) are scored second by iterations, or time taken to reach the end.  Smaller is better.
-		- kill: sort the cars by score, and keep only the top KILLTOPOPULATION
-		- mutate: each car, with probability MUTATE_SELECTION_RATE, has the chance to produce a new mutant car that is added to the population
-
-	YOU SHOULD WRITE, AT A MINIMUM, FUNCTIONS BREED() KILL() and MUTATE().  Find the TODO lines.
-*/
 
 import java.awt.*;
 import java.awt.event.*;
@@ -86,8 +69,6 @@ public class GeneticCars implements MouseListener
 			population.add(new Car(10));
 	}
 
-	//TODO
-	//YOU WRITE THIS
 	public void breed()
 	{
 		//Make an arraylist of new cars
@@ -109,8 +90,7 @@ public class GeneticCars implements MouseListener
 		//finally copy the cars in new car over to the population
 	}
 
-	//TODO
-	//YOU WRITE THIS
+
 	public void mutate()
 	{
 		//Make an arraylist of new cars
@@ -130,8 +110,7 @@ public class GeneticCars implements MouseListener
 		//finally copy the cars in new car over to the population
 	}
 
-	//TODO
-	//YOU WRITE THIS
+	
 	public void kill()
 	{
 		//make a "keep" arraylist of cars
